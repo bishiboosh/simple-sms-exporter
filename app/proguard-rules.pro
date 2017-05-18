@@ -1,3 +1,5 @@
+-dontobfuscate
+
 -keep public class android.support.v7.widget.** { *; }
 -keep public class android.support.v7.internal.widget.** { *; }
 -keep public class android.support.v7.internal.view.menu.** { *; }
@@ -58,5 +60,6 @@
 
 # Guava 19.0
 -dontwarn java.lang.ClassValue
--dontwarn com.google.j2objc.annotations.Weak
 -dontwarn org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
+-dontwarn com.google.errorprone.**
+-dontwarn com.google.j2objc.**
