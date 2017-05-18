@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SmsExporter</string>
+    <string name="export">Exporter les SMS</string>
+    <string name="getting_sms">Récupération des SMS</string>
+    <string name="sms_progress">Récupération des SMS, %1$d / %2$d</string>
+    <string name="getting_contacts">Récupération des contacts</string>
+    <string name="contacts_progress">Récupération des contacts, %1$d / %2$d</string>
+    <string name="export_sms">Export des données</string>
+    <string name="no_sms">Pas de SMS trouvés</string>
+</resources>
